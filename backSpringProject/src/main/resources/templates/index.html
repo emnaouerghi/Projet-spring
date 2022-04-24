@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2>Abonne Registation</h2>
+        <table>
+        <tbody>
+        <tr>
+            <div align="left">
+
+           <!--      <h3><a th:href="@{'/new'}">Add new</a></h3> -->
+
+            </div>
+
+        </tr>
+        <tr>
+
+            <div class="col-sm-5" align="center">
+                <div class="panel-body" align="center">
+
+
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Abonne ID</th>
+                                <th>Abonne Name</th>
+                                <th>Abonne surname</th>
+                                <th>Address</th>
+                                <th>Phone</th>
+                                <th>Date inscription</th>
+                                <th>edit</th>
+                                <th>delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <!--     <tr th:each="abonne : ${list}">
+                                <td th:text="${abonne.id}">Abonne ID</td>
+                                <td th:text="${abonne.nom}">Abonne Name</td>
+                                <td th:text="${abonne.prenom}">surname</td>
+                                <td th:text="${abonne.adresse}">address</td>
+                                <td th:text="${abonne.tel}">phone</td>
+                                <td th:text="${abonne.dateInscri}">date inscri</td>
+                                <td>
+                                    <a th:href="@{'/edit/' + ${abonne.id}}">Edit</a>
+                                </td>
+                                <td>
+                                    <a th:href="@{'/delete/' + ${abonne.id}}">Delete</a>
+                                </td>
+                            </tr>
+--> 
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+        </tr>
+
+        </tbody>
+        </table>
+   </div>
+</body>
+
+</html>
